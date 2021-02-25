@@ -12,13 +12,8 @@
 
 - Studied UI/UX design, typography, print, and web design.
 
-**Minor in Liberal Studies**  
-
-- Humanities degree focusing on the study of cultural history through texts contemporary.
-
 **Minor in Computer science**
 
-- Experience programming in Python, Java, Racket C, and SQL. Completed projects such as creating a program to analyze stock splits and read twitter data to produce a mood heat map of twitter data based on the content of the tweet.
 - Officer of WWU Game Design club. Helped organize and participated in the quarterly game jams.
 
 ### Experience
