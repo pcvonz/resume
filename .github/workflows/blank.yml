@@ -24,7 +24,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install deps
-        run: sudo apt update && sudo apt install -y pandoc wkhtmltopdf
+        run: sudo apt update && sudo apt install -y pandoc
+      - name: Install WKHTML
+        run: |
+          wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.3/wkhtmltox-0.12.3_linux-generic-amd64.tar.xz
+          tar vxf wkhtmltox-0.12.3_linux-generic-amd64.tar.xz 
       - name: build artifacts
         run: ./compile_pdf.sh
       - name: release
