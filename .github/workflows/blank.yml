@@ -38,7 +38,7 @@ jobs:
           draft: false
           prerelease: false
           release_name: A new resume
-          tag_name: ${{ github.job }}
+          tag_name: ${{ github.run_id }}
           body_path: resume.md
         env:
           GITHUB_TOKEN: ${{ github.token }}
