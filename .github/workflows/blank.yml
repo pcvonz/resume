@@ -24,9 +24,21 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run a one-line script
-        run: apt install -y pandoc wkhtml2pdf
+        run: sudo apt install -y pandoc wkhtml2pdf
       - name: build artifacts
         run: ./compile.sh
+      - name: release
+        uses: actions/create-release@v1
+        id: create_release
+        with:
+          draft: false
+          prerelease: false
+          release_name: A new resume
+          tag_name: ${{ github.ref }}
+          body_path: resume.md
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
       - name: upload linux artifact
         uses: actions/upload-release-asset@v1
         env:
