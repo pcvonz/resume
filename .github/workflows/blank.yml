@@ -26,7 +26,7 @@ jobs:
       - name: Install deps
         run: sudo apt update && sudo apt install -y pandoc wkhtmltopdf
       - name: build artifacts
-        run: ./compile.sh
+        run: ./compile_pdf.sh
       - name: release
         uses: actions/create-release@v1
         id: create_release
@@ -38,7 +38,6 @@ jobs:
           body_path: resume.md
         env:
           GITHUB_TOKEN: ${{ github.token }}
-
       - name: upload linux artifact
         uses: actions/upload-release-asset@v1
         env:
