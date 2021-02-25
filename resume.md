@@ -1,9 +1,3 @@
-##### WWU ResTek Web & Print Designer (2014-2017)
-
-- Collaborated with peers to create mock-ups for web applications for the housing department at Western Washington University. 
-- Designed the front-end for web apps using Django. 
-- Helped recruit and train new employees.
-
 ## Paul Von Zimmerman  
 **Github**: pcvonz  
 **Email**: vonzimp@gmail.com  
