@@ -16,7 +16,6 @@
 
 ##### Bargreen-Ellingson Full Stack developer (2017-Current)
 ###### Sales analytics
-**Tools used:** Python, Angular, EC2
 
 - Worked on rendering a graph of earnings over the year for a custom subset of data
 - Worked on a custom date picker to support submitting a query over a date range
@@ -27,7 +26,6 @@
 - Created a workflow for salespeople to import data from an invoice generator into our production database. The process validated items before creating an invoice with an easy UI. The workflow is now a key part of processing large batch orders.
 
 ###### Commissions calculator
-**Tools used:** Javascript, React / Redux, Figma, Rollup
 
 - Mocked up user flows for stakeholders to validate the process before development.
 - Helped design and develop a component library in Rollup to re-use our components (selectors, tables, inputs) across the front-end. Added tests and Storybook to the project to make component documentation easier to find and changes easier to validate. 
