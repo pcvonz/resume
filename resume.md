@@ -17,19 +17,20 @@
 ##### Bargreen-Ellingson Full Stack developer (2017-Current)
 ###### Sales analytics
 
-- Worked on rendering a graph of earnings over the year for a custom subset of data
-- Worked on a custom date picker to support submitting a query over a date range
+- Worked on rendering a graph of earnings over the year for a custom subset of data.
+- Worked on a custom date picker to support submitting a query over a date range.
 - Mocked out UI/UX for key workflows.
 
 ###### Quote tool
-- Developed the back-end in C# and front-end in React, deployed to AWS Lambda and S3
+
+- Developed the back-end in C# and front-end in React, deployed to AWS Lambda and S3.
 - Created a workflow for salespeople to import data from an invoice generator into our production database. The process validated items before creating an invoice with an easy UI. The workflow is now a key part of processing large batch orders.
 
 ###### Commissions calculator
 
 - Mocked up user flows for stakeholders to validate the process before development.
 - Helped design and develop a component library in Rollup to re-use our components (selectors, tables, inputs) across the front-end. Added tests and Storybook to the project to make component documentation easier to find and changes easier to validate. 
-- Helped design and create a visual programming tool that managers can use to create custom rules that determine the commission on invoices. The process improved the sales process for both managers and salespeople, making the commission process modern and easier to understand.
+- Helped design and create a visual programming tool that managers can use to create custom rules that determine the commission on invoices. The process improved the sales process for both managers and salespeople, making the commission process modern and transparent.
 
 ###### E-commerce website
 
