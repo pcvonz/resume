@@ -2,7 +2,7 @@
 **Github**: pcvonz  
 **Email**: vonzimp@gmail.com  
 **Portfolio**: https://paulvonzimmerman.com  
-**Address:** 810 12th Ave, Seattle Wa
+**Address:** 810 12th Ave, Seattle Wa  
 **Phone**: (253) 514-9612
 
 -----
