@@ -1,44 +1,80 @@
 ## Paul Von Zimmerman  
-**Github**: pcvonz  
-**Email**: vonzimp@gmail.com  
-**Portfolio**: https://paulvonzimmerman.com  
-**Address:** 810 12th Ave, Seattle Wa  
+
+**Github**: pcvonz
+
+**Email**: vonzimp@fastmail.com
+
+**Portfolio**: https://paulvonzimmerman.com
+
 **Phone**: (253) 514-9612
 
 -----
 
 ### Work Experience
-##### WWU ResTek Web & Print Designer (2014-2017)
+##### WWU ResTek | Web & Print Designer (2014-2017)
 
 - Collaborated with peers to create mock-ups for web applications for the housing department at Western Washington University. 
 - Designed the front-end for web apps using Django. 
 - Helped recruit and train new employees.
 
-##### Bargreen-Ellingson Full Stack developer (2017-Current)
+##### Bargreen-Ellingson | Full Stack developer (2017-2021)
 ###### Sales analytics
 
-- Worked on rendering a graph of earnings over the year for a custom subset of data.
-- Worked on a custom date picker to support submitting a query over a date range.
-- Mocked out UI/UX for key workflows.
+- Helped design and implement an intuitive workflow for querying sales records. Primarily worked with Angular 2.
+- Features included: 
+  - Filtering data by an arbitrary field (SKU, Manufacturer, etc.)
+  - Graphing sales performance
 
 ###### Quote tool
 
-- Developed the back-end in C# and front-end in React, deployed to AWS Lambda and S3.
-- Created a workflow for salespeople to import data from an invoice generator into our production database. The process validated items before creating an invoice with an easy UI. The workflow is now a key part of processing large batch orders.
+- Created a workflow for salespeople to import data from an invoice into our production database. The process validated that items existed in our ERM before creating an invoice. The workflow is now a key part of processing large batch orders.
 
 ###### Commissions calculator
 
 - Mocked up user flows for stakeholders to validate the process before development.
-- Helped design and develop a component library in Rollup to re-use our components (selectors, tables, inputs) across the front-end. Added tests and Storybook to the project to make component documentation easier to find and changes easier to validate. 
-- Helped design and create a visual programming tool that managers can use to create custom rules that determine the commission on invoices. The process improved the sales process for both managers and salespeople, making the commission process modern and transparent.
+- Developed a component library packaged via `Rollup` to re-use our components (selectors, tables, inputs) across other front-end projects. Components were tested in Jest and documented in Storybook. 
+- Helped design and create a visual programming tool that managers can use to create rules that determine the commission earned from a given invoice. The process automated a time consuming manual process for salespeople and managers.
 
 ###### E-commerce website
 
-- Developed with C#, Typescript, and React to create a custom e-commerce website that integrates cleanly with Bargreen's ERP system.
+- Developed with C#, Typescript, and React to create a custom e-commerce website that integrates seamlessly with Bargreen's ERP system.
 - Designed and implemented a new product catalog in ElasticSearch which syncs with Bargreen's product database using AWS SQS and Lambda. The catalog allows a custom subset of items to be displayed depending on which user is logged in. Helped implement features across the full stack including rendering the catalog, searching, and filtering items based on which properties items have.
 - Helped create the product category menu so users can browse items based on which category they appear in. The menu is built depending on products in their catalog.
 - Worked with docker and CircleCI to spin up an elastic search instance in CI to run integration tests to validate proper catalog generation. 
 - Helped create the product details page that is rendered via NextJS to improve SEO performance and page load speed.
+
+##### Remo | Senior Web Developer (2021-Current)
+
+At Remo I worked alongside an experienced team of Typescript developers to build a more engaging virtual events platform. 
+
+###### Shuffle
+
+- Implemented a greedy algorithm to find an optimum distribution of users per table
+- Migrated code from a legacy and unmaintained cloud function to a new express back-end
+- Used web sockets to sync the state of shuffle, this included:
+  - A simple countdown to warn users that they are about to be shuffled
+  - An update that clients used to render the new seating arrangement
+
+###### Core UI
+
+- Helped design a custom UI toolkit for use in all front-end components
+- Based off of Material UI 4
+- Ensured all states rendered correctly via automated screenshot tests
+
+###### Audio / Video
+
+- Helped design and implement custom audio and video UI components
+- Integrated and maintained Opentok related compoennts (Vonage Video API). 
+  - Later replaced the OpenTok implementation with Daily.
+- Created a React layer for video effects (Blur & Image background)
+
+###### Polls
+
+- This project was a pilot for a new architecture that utilized AWS App Sync and Serverless for deployment. The feature added the ability for meeting hosts to create quizzes and polls for guests.
+- I owned the complete architecture from front-end to back-end. 
+- Utilized GraphQL subscriptions for real-time updates
+- Fully tested with unit and integration tests
+
 
 ### Education
 
@@ -48,9 +84,8 @@ Western Washington University
 
 ### Programming languages 
 - Javascript _(Advanced)_
+- Typescript _(Advanced)_
 - Python _(Intermediate)_
-- Typescript _(Intermediate)_
-- Reasonml/Rescript _(Intermediate)_
 - C# _(Intermediate)_
 - Rust _(Intermediate)_
 
@@ -58,6 +93,7 @@ Western Washington University
 
 - React _(Advanced)_
 - Linux _(Advanced)_
-- Elasticsearch _(Intermediate)_
 - Docker _(Intermediate)_
 - Vercel (_Intermediate_)
+- Google Cloud (_Intermediate_)
+- AWS (_Intermediate_)
