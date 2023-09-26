@@ -12,7 +12,26 @@
 -----
 ### Work Experience
 
-##### Remo | Senior Web Developer (2021-Current)
+##### Administrative Office of The Courts | Senior Web Developer (2023-current)
+
+###### Public Comments
+
+- Created a new web app for the public to review and comment on new rules and rule changes
+
+###### Guardianship
+
+- Part of this project was to develop a new architecture for future applications. The goal was to create something modular, robust, and well documented. This was accomplished by:
+  - Auto generating API documentation via open API
+  - Auto generating a typescript API client via OpenAPI. This is major -- it shows compilation issues at compile time rather than in runtime. 
+  - Mono repo with workspaces for shared packages.
+  - CI / CD via Azure pipelines.
+- All infrastructure was built with an infrastructure as code tool (Pulumi).
+
+###### Search
+
+- Developed a python tool to scrape and index web content
+
+##### Remo | Senior Web Developer (2021-2022)
 
 ###### Shuffle
 
